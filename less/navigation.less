@@ -1,11 +1,18 @@
 // Navigation code here
 
 nav {
-    width: 50%;
+    width: 100%;
     margin: auto;    
     padding-top: 40px;
-    display: flex;
-    flex-direction: column;
+    background: @nav-bg;
+    border-bottom: 1px solid @main-border-color;
+    .df-dir-column;
+
+    @media @phone {
+        width: 100%;
+        background: @nav-bg;
+        .df-dir-column;
+    }
 
     h2 {
         font-size: 4rem;
