@@ -1,1 +1,22 @@
 // Mixins Here
+
+.button-color (@button, @btn-fnt-color) {
+    width: 30%;
+    background-color: @button;
+    border: none;
+    border-radius: 5px;
+    color: @btn-fnt-color;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+.btn {
+    .button-color(@btn-bg-color, @wild-sand);
+  }
+
+.display-justify {
+    display: flex;
+    justify-content: center;
+}  
