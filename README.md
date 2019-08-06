@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites need layouts created in CSS for each types of screen size, e.g. tablets and cellphones. Fully responsive websites are coded using responsive units so that no matter the size of the screen, the website will adapt to it.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+This means that design and coding takes place for mobile devices first, then are scaled for optimization on desktop devices.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Helps make REM calculations easy when coding CSS. Setting HTML to font-size 62.5% equals to 10px in CSS. E.G. 1REM = 10px, 1.5REM = 15px, 2.4REM = 24px. REM is a responsive unit so it makes responsive coding easier.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing gives us the ability to work on specific parts of a project individually (e.g. navigation, top-section, bottom-section, footer), using powerful tools like variables, nesting, and mixins;  then lets us compile them all into one big working CSS file.  
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I’m a big fan of nesting because of how clean it looks. Nested at-rules still give me some trouble but only because I need more practice using them!
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

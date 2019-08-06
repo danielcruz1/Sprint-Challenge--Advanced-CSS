@@ -1,1 +1,38 @@
 // Mixins Here
+
+.button-color (@button, @btn-fnt-color) {
+    width: 30%;
+    background-color: @button;
+    border: none;
+    border-radius: 5px;
+    color: @btn-fnt-color;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.75rem;
+
+    &:hover {
+        background-color: @btn-fnt-color;
+        color: @button;
+    }
+}
+
+.btn {
+    .button-color(@btn-bg-color, @wild-sand);
+
+    @media @phone {
+        width: 100%;
+        padding: 20px;
+      }
+  }
+
+
+.display-justify {
+    display: flex;
+    justify-content: center;
+}
+
+.df-dir-column {
+    display: flex;
+    flex-direction: column;
+}
